@@ -111,28 +111,6 @@ NLLB used in BN→EN direction to generate 2,000 synthetic source sentences, pro
 | NLLB-200 distilled | 600M | `facebook/nllb-200-distilled-600M` |
 
 ---
-
-## Project Structure
-
-```
-.
-├── Low_Resource_Neural_Machine_Translation.ipynb
-├── nmt_outputs/
-│   ├── mbart_best/               # fine-tuned mBART checkpoint
-│   ├── nllb_best/                # fine-tuned NLLB checkpoint
-│   ├── length_dist_train.png
-│   ├── token_freq_train.png
-│   ├── ratio_heatmap_train.png
-│   ├── vocab_growth_train.png
-│   ├── training_curves.png
-│   ├── model_comparison.png
-│   ├── sent_bleu_mBART-50.png
-│   ├── sent_bleu_NLLB-200.png
-│   ├── error_analysis_mBART-50.png
-│   └── error_analysis_NLLB-200.png
-└── README.md
-```
-
 ---
 
 ## Pipeline Overview
